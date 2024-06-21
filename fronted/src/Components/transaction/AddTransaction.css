@@ -1,0 +1,43 @@
+
+
+/* In your CSS file, e.g., App.css */
+.my-form {
+  max-width: 600px;
+  max-height: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  margin-left : 40%;
+  margin-top: 60px;
+  height: 860px;
+  margin-bottom: 100px; 
+}
+
+
+
+.my-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.my-form p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.my-form .form-control {
+  margin-bottom: 10px;
+}
+
+.my-form .btn-block {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.my-form .btn-link {
+  width: 100%;
+  text-align: center;
+  display: block;
+}

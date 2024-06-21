@@ -1,0 +1,34 @@
+html, body {
+  height: 100%; /* Ensure full height */
+  margin: 0; /* Remove default margin */
+}
+
+
+.footer {
+  position : fixed;
+ bottom: 0px !important;
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+ 
+}
+
+.footer h5 {
+  margin-bottom: 20px;
+}
+
+.footer p,
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+
+.footer .fa-map-marker-alt,
+.footer .fa-phone,
+.footer .fa-envelope {
+  margin-right: 10px;
+}

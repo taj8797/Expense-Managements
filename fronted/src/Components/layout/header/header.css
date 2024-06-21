@@ -1,0 +1,173 @@
+/* .header {
+
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  /* border-bottom: 1px solid #ddd; */
+  /* justify-content: flex-end;
+  position: fixed;
+ margin-left: 150px;
+
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.account-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.account-name {
+  font-size: 1rem;
+  color: #333;
+} */ 
+
+
+.header {
+  width: 81%;
+  margin-left:291px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 18px;
+
+
+/* box-shadow : 0px opx 10px opx hsla(0, 4%, 89%, 0.1); */
+
+
+}
+.search-box {
+
+margin-top: 10px;
+margin-left: 40%;
+background-color:white;
+padding: 0 11px;
+border-radius: 4px;
+display: flex;
+gap: 10px;
+align-items: center;
+border: 1px solid black;
+
+}
+
+.search-icon{
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px;
+margin-inline-end: -10px;
+  color: black;
+  border : 0.5 solid navajowhite
+  /* border: 2px solid black; */
+
+}
+
+.search-box input{
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+
+}
+
+ .user-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+} 
+
+.user-name{
+
+  
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+
+}
+
+
+.user-box .user-icon{
+  background:#eee;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  border: 1px solid gray;
+}
+.user-icon:hover{
+  color :#333;
+  background: #fff;
+  border: 1px solid gray;
+  transition: all 0.5s ease-in;
+}
+
+@media (max-width : 860px){
+  .search-box {
+    display: none;
+  }
+  .user-box button{
+
+    display : none;
+  }
+}
+
+
+@media (max-width : 560px){
+
+
+
+}
+
+
+.header {
+  grid-column: 2;
+  grid-row: 1;
+
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+} 
+.navbar-user{
+  margin-right: 40px;
+
+}

@@ -1,0 +1,19 @@
+
+.grid-col{
+  position: absolute;
+  display: grid;
+
+  margin-top: 220px;
+  width: 20%;
+  right: 50%;
+  left: 10%;
+
+
+ 
+} 
+
+
+.gap-take{
+  margin-left: 30px;
+  grid-area:  30px;
+}

@@ -1,0 +1,50 @@
+
+.space-bothside{
+
+justify-content: space-between;
+
+margin-right: 20px;
+
+margin-top: 12px;
+
+/* width: 15%; */
+
+}
+
+
+.transaction-container{
+
+position: absolute;
+  border: 2px solid black;
+  width: 20%;
+right: 30px;
+height: 550px;
+}
+
+.select-month{
+  position:  absolute;
+  right: 10px;
+  top : 7%;
+  
+}
+
+.btn-more{
+
+  position:  absolute;
+  right: 3px;
+  top : 94%;
+  width: 60px;
+}
+
+.head-dash{
+
+left : 25%;
+  position: relative;
+  bottom: 410px;
+  font-size: 35px;
+
+}
+
+.container-first{
+  display: flex;
+}

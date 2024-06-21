@@ -1,0 +1,27 @@
+
+
+.chart-container{
+  position: absolute;
+  left: 370px;
+  
+  top: 890px;
+  width: 420px;
+
+
+
+
+  /* border: 2px solid gray !important; */
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+color: var(--bs-card-color);
+height: 280px;
+
+}
+
+.chart{
+  margin-top: 3%;
+
+  
+
+}
+

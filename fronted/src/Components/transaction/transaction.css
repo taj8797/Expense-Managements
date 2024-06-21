@@ -1,0 +1,63 @@
+
+
+.upi-container {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.transaction-table1 {
+  margin-top: 60px;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #212529; /* Dark font color */
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 10px;
+
+}
+
+.transaction-table th {
+  background-color: #343a40; /* Dark background for table headers */
+  color: #ffffff; /* White font color for table headers */
+}
+
+.transaction-table tbody tr:nth-of-type(even) {
+  background-color: #e9ecef; /* Alternate row background color */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.upi-head{
+  margin-left: 604px !important;
+  position: absolute;
+  margin-top: 70px;
+}
+/* 
+.col-upi{
+
+  margin-left: 60%;
+  width: 120%;
+} */
+
+.credit-head{
+  margin-left: 604px !important;
+  position: absolute;
+  margin-top: 180px;
+}
+
+.debit-head{
+  margin-left: 604px !important;
+  position: absolute;
+  margin-top: 50px;
+
+}
+

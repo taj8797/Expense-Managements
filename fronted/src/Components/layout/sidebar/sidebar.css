@@ -1,0 +1,90 @@
+
+  .Sidebar{
+    position: fixed !important;
+    top: 0;
+    height:1500px;
+    width:300px;
+    background-color:#2f4050 ;
+     
+  
+  }
+  .SidebarList{
+  
+    height: auto;
+    width: 100%;
+    padding: 0;
+  
+  
+  
+  }
+  
+  
+  .SidebarList .row{
+  
+    width: 100%;
+    height: 60px;
+    
+    list-style-type:none;
+    margin : 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  
+  
+  }
+  
+  .SidebarList .row:hover{
+    cursor: pointer;
+    background-color:  #293846; ;
+  
+  
+  }
+  
+  .SidebarList #active {
+    background-color: #293846;
+  
+  }
+  .row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  
+  }
+  
+  .row #title{
+   flex: 70%;
+  
+  }
+  .SidebarList .row:nth-child(5) {
+    margin-bottom: 70px; /* Adjust as needed */
+  }
+ 
+
+  .SidebarList .row:nth-child(1) {
+    margin-bottom: 30px;
+    font-size: 22px; 
+    display: block;
+    margin-top: 15px;
+    margin-left: 25px;
+    /* Adjust as needed */
+  }
+
+.head {
+  color: white !important;
+  background-color: white;
+}
+
+
+
+.DropdownList {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px; /* Indent dropdown items */
+}
+
+.DropdownList .row {
+  padding: 0px 5px;
+}

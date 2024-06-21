@@ -1,0 +1,21 @@
+
+
+Form.Label{
+
+  padding: 10px;
+}
+
+.table{
+
+  border-radius: 10px;
+  border : 2px solid tomato;
+  padding: 40px;
+}
+
+.head-bank{
+  font-size: 2rem;
+  display: inline-block;
+  position: absolute;
+  margin-left: 471px;
+  margin-top: 150px;
+}
